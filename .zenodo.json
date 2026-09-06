@@ -1,0 +1,14 @@
+{
+  "title": "Does spoken speech teach imagined speech? Leakage-controlled linear baselines on three public datasets (sEMG + EEG)",
+  "description": "Reproducible linear baselines run before building a 16-channel EEG rig for imagined-speech repeatability. Tests whether a decoder trained on spoken (or silently articulated) speech reads imagined speech, on Gaddy 2020 (sEMG), Nieto 2022 and FEIS 2019 (EEG), with session/temporal-block validation and permutation nulls. Includes the observation that same-trial train/test splits produce an apparent spoken-to-imagined transfer that disappears under temporal-block splits.",
+  "creators": [{"name": "Luporini, Gilberto", "affiliation": "Faculdade São Leopoldo Mandic, Araras, Brazil"}],
+  "keywords": ["imagined speech", "inner speech", "EEG", "sEMG", "brain-computer interface", "silent speech", "cross-session generalization", "data leakage", "reproducibility"],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.4064409", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "10.5281/zenodo.3554128", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "10.18112/openneuro.ds003626.v2.1.2", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ]
+}
