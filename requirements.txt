@@ -1,0 +1,5 @@
+numpy
+scipy
+pandas
+scikit-learn
+mne        # only for nieto_transfer.py
