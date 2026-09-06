@@ -1,5 +1,7 @@
 # Does spoken speech teach imagined speech? Leakage-controlled linear baselines on three public datasets
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22441724.svg)](https://doi.org/10.5281/zenodo.22441724)
+
 Small, reproducible baselines run before building a 16-channel EEG rig for imagined-speech repeatability.
 The question: **can a decoder trained on spoken (or silently articulated) speech read imagined speech from the same person?**
 And the prerequisite question: **does imagined speech even survive a change of session?**
@@ -81,6 +83,10 @@ Caches under `cache/` contain pooled features only (per-utterance or per-epoch s
 - S. Wellington & J. Clayton, *Fourteen-channel EEG with Imagined Speech (FEIS) dataset* (2019). Data: Zenodo record 3554128, ODC-BY 1.0.
 
 Code: MIT. Derived caches: redistributed with attribution under the original data licenses.
+
+## Cite
+
+If you use this, cite the concept DOI (resolves to the latest version): Luporini, G. (2026). *Does spoken speech teach imagined speech? Leakage-controlled linear baselines on three public datasets (sEMG + EEG)*. Zenodo. https://doi.org/10.5281/zenodo.22441724
 
 ## Author
 
