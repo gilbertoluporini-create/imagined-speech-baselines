@@ -11,7 +11,7 @@
 | nulo T (perm) | média 24.5% · p95 28.7% | **p = 0.030** |
 | nulo I (perm) | média 24.8% · p95 29.2% | **p = 0.200** |
 
-## 16 canais ≈ nossa coroa
+## 14 canais ≈ nossa coroa
 | condição | acurácia | acaso |
 |---|---|---|
 | I inner→inner (LOSO) | **25.4%** | 25% |
@@ -24,9 +24,9 @@
 ## Leitura
 - **T** é a pergunta do projeto: pronunciado ensina o imaginado em EEG? Compare com o nulo T.
 - **I** = teto do imaginado dentro do modo (sessão nova). **M** = professor misto. **P** = sanidade.
-- Limite: 4 classes, 1 sujeito por rodada, features de banda (sem dinâmica temporal); LOSO exige generalizar entre DIAS.
+- Limite: 4 classes, 1 sujeito por rodada, features de banda (sem dinâmica temporal); LOSO exige generalizar entre SESSÕES (as 3 sessões do ds003626 foram no MESMO dia, consecutivas; Nieto et al. 2022, Methods).
 ## Dentro da sessão (mesmo dia)
 | montagem | inner→inner 5-fold | nulo p95 · p | pron→inner (mesmo dia) |
 |---|---|---|---|
 | 128 canais | **23.3%** | p95 30.0% · p = 0.720 | 26.7% |
-| 16 canais ≈ nossa coroa | **23.8%** | p95 30.6% · p = 0.620 | 26.7% |
+| 14 canais ≈ nossa coroa | **23.8%** | p95 30.6% · p = 0.620 | 26.7% |
